@@ -101,6 +101,8 @@ Step 17. Expand the image file Linux_Evidence_001.img to see its contents. Upon 
 
 ![image](https://github.com/user-attachments/assets/b6b1136f-72db-49fa-984f-29eab45f5118)
 
+Task 2. Analyze Linux File System.
+
 Step 18. You may examine all the required files stored in the image as a part of filesystem analysis. In this lab, we are going to view the passwd file that is stored in \etc location. Therefore, select the etc folder from the left pane.
 
 Step 19. Upon selecting the folder, all the files and folders present in etc are displayed in the right pane of the window.
@@ -133,6 +135,8 @@ Annotations
 
 Step 24. This way, you can analyze all the other files and folders of your choice to get detailed information on them.
 
+Task 3. Validate the integrity of files using MD5 Hash.
+
 Step 25. Apart from examining the file system, you can also calculate the hashes of the files that you examine, which helps in validating the integrity of the evidence. In this lab, we will be calculating the MD5 hash of a file named SeatPlan.xls, which is located within /home/roger/Documents.
 
 ![image](https://github.com/user-attachments/assets/bc260064-db2c-487d-b55b-edb101ac0359)
@@ -152,6 +156,8 @@ Step 28. Click on File Metadata and scroll down the section to find the MD5 valu
 Step 29. Click on Results tab and you can view information such as Source File Path, Artifact ID and it shows that the file is password protected.
 
 ![image](https://github.com/user-attachments/assets/ba41dae1-1f08-4551-9c5c-b101b4f05a29)
+
+Task 4. Analyze Images/Videos, Timeline using editor menu.
 
 Step 30. Now, click on Images/Videos option from the toolbar to view all the images and videos present in the evidence file.
 
@@ -196,6 +202,8 @@ Step 39. The events will be listed in a time sequence; you can select any entry 
 Step 40. Now close the Timeline-Editor window to navigate back to Autopsy main window. In the Autopsy window click on the Generate Report option from the menu bar.
 
 ![image](https://github.com/user-attachments/assets/87e6f72c-f6df-42ea-a703-6986788a473f)
+
+Task 5. Generate HTML Report.
 
 Step 41. A Generate Report window appears. By default, HTML Report will be selected under Report Modules, enter Header and Footer details in the respective fields and click on Next.
 
